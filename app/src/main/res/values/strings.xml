@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lone Wolf</string>
+    <string name="new_game">Nuova Partita</string>
+    <string name="continua">Continua</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="menu_stats">Statistiche</string>
+    <string name="menu_profile">Profilo</string>
+    <string name="menu_home">Home</string>
 </resources>
