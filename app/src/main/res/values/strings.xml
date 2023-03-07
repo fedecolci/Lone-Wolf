@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lone Wolf</string>
+    <string name="login">Login</string>
 </resources>
