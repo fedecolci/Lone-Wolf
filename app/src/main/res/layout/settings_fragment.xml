@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Cardview_settings"
+        android:layout_width="345dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="500dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Musica_settings"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:text="Musica" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/Slider_settings"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="50dp"
+            android:valueFrom="0.0"
+            android:valueTo="100.0" />
+
+        <ImageView
+            android:id="@+id/Image_settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/baseline_music_note_24" />
+
+        <TextView
+            android:id="@+id/Notifiche_settings"
+            android:layout_width="90sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="80dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Notifiche" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/Switch_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="70dp" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/Cardview2_settings"
+        android:layout_width="345dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        app:cardCornerRadius="@dimen/cardview_default_elevation"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cardview_settings"
+        tools:ignore="InvalidId">
+
+        <TextView
+            android:id="@+id/Vibrazione_settings"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="35dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Vibrazione" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/Switch2_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/Lingua_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="80dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Lingua" />
+
+        <Button
+            android:id="@+id/Button_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="70dp"
+            android:text="Button"
+            tools:text="Seleziona" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
